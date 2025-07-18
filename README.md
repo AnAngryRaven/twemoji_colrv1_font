@@ -2,7 +2,9 @@
 
 This repo is intended to document the build process (and host the output of) the COLRv1 version of Twemoji.
 
-Inspired by the SVG-OpenType version hosted by [13rac1 here](https://github.com/13rac1/twemoji-color-font/tree/main)!
+Inspired by the SVG-OpenType version hosted by [13rac1 here](https://github.com/13rac1/twemoji-color-font/tree/main)! If you need an SVG-OpenType / SVGinOT version of this font, there is your best bet.
+
+Twemoji maintained by jdecked and company, repository found [here](https://github.com/jdecked/twemoji). 
 
 ## Dependencies
 
