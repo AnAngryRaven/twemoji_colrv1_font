@@ -4,23 +4,11 @@ This repo is intended to document the build process (and host the output of) the
 
 Inspired by the SVG-OpenType version hosted by [13rac1 here](https://github.com/13rac1/twemoji-color-font/tree/main)! If you need an SVG-OpenType / SVGinOT version of this font, there is your best bet.
 
-Twemoji maintained by jdecked and company, repository found [here](https://github.com/jdecked/twemoji). 
-
-## Dependencies
-
-This requires installation of Google's `nanoemoji`. You can install it by running `pip install nanoemoji`.
-
-**Note:** It seems that nanoemoji isn't intended to run in a virtual environment (or perhaps my understanding of virtual environments is lacking, I don't use python much :p )
-
-If you've installed nanoemoji in a virtual environment, you will probably have to copy over the `nanoemoji` and `picosvg` files into your `/bin` directory to get it to work.
-
-Additionally, you will have to install `ninja-build` from your distribution's package manager.
-
-(If anyone knows how to correctly get it working in a virtual environment, please do submit a PR updating these instructions!)
+Twemoji maintained by jdecked and company, repository found [here](https://github.com/jdecked/twemoji).
 
 ## Building
 
-So long as you have the dependencies, simply running `build.sh` on a Linux install of your choice should begin the build process.
+Simply running `build.sh` on a Linux install of your choice should begin the build process.
 
 Picosvg will then begin iterating through the SVGs present within the assets folder; *Depending on your system, this could very well take a fair bit of time.*
 
